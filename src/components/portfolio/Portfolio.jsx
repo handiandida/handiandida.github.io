@@ -8,13 +8,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/autoplay";
 
 // import required modules
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio container section">
+    <section className="portfolio container section" id="portfolio">
       <h2 className="section__title">Portfolio</h2>
       <span className="section__subtitle">My recent works</span>
 
@@ -23,6 +24,8 @@ const Portfolio = () => {
         loop={true}
         grabCursor={true}
         spaceBetween={24}
+        speed={1000}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         pagination={{
           clickable: true,
         }}
@@ -35,7 +38,7 @@ const Portfolio = () => {
             spaceBetween: 48,
           },
         }}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
       >
         {Data.map(({ id, image, title, description }) => {
           return (

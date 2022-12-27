@@ -26,6 +26,14 @@ const Social = () => {
       >
         <i class="uil uil-github"></i>
       </a>
+
+      <a
+        href="https://www.linkedin.com/in/dida-handian-370099172/"
+        className="home__social-icon"
+        target="_blank"
+      >
+        <i class="uil uil-linkedin"></i>
+      </a>
     </div>
   );
 };

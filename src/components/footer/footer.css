@@ -58,11 +58,11 @@
 /* Breakpoints */
 /* for large devices */
 @media screen and (max-width: 992px) {
-    .footer__social-link {
-        padding: 0.25rem;
-        border-radius: 0.25rem;
-        font-size: 1rem;
-    }
+  .footer__social-link {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+  }
 }
 
 /* for medium devices */
