@@ -7,7 +7,6 @@ import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Qualification from "./components/qualification/Qualification";
 import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
@@ -23,8 +22,7 @@ const App = () => {
         <Skills />
         <Services />
         <Qualification />
-        {/* <Portfolio /> */}
-        <Testimonials />
+        <Portfolio />
         <Contact />
       </main>
 

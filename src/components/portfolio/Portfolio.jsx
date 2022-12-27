@@ -1,111 +1,53 @@
 import React from "react";
-import Image1 from "../../assets/me.png";
-import Image2 from "../../assets/work1.jpg";
-import Image3 from "../../assets/work2.jpg";
-import Image4 from "../../assets/work3.jpg";
-import Image5 from "../../assets/work4.jpg";
-import Image6 from "../../assets/work5.jpg";
-
 import "./portfolio.css";
+import { Data } from "./Data";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio section" id="portfolio">
+    <section className="portfolio container section">
       <h2 className="section__title">Portfolio</h2>
       <span className="section__subtitle">My recent works</span>
 
-      <div className="portfolio__container container grid">
-        <div className="portfolio__content">
-          <div>
-            <img src={Image1} className="portfolio__img" />
-          </div>
-          <div>
-            <h3 className="portfolio__title">
-              Landing <br /> Page
-            </h3>
-          </div>
+      <Swiper
+        className="portfolios__container"
+        loop={true}
+        grabCursor={true}
+        spaceBetween={24}
+        pagination={{
+          clickable: true,
+        }}
+        breakpoints={{
+          576: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 48,
+          },
+        }}
+        modules={[Pagination]}
+      >
+        {Data.map(({ id, image, title, description }) => {
+          return (
+            <SwiperSlide className="portfolio__card" key={id}>
+              <img src={image} alt="" className="portfolio__img" />
 
-          <a href="mailto:handiandida@gmail.com" className="portfolio__button">
-            View Details{" "}
-            <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
-          </a>
-        </div>
-        <div className="portfolio__content">
-          <div>
-            <img src={Image2} className="portfolio__img" />
-          </div>
-          <div>
-            <h3 className="portfolio__title">
-              Landing <br /> Page
-            </h3>
-          </div>
-
-          <a href="mailto:handiandida@gmail.com" className="portfolio__button">
-            View Details{" "}
-            <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
-          </a>
-        </div>
-        <div className="portfolio__content">
-          <div>
-            <img src={Image3} className="portfolio__img" />
-          </div>
-          <div>
-            <h3 className="portfolio__title">
-              Landing <br /> Page
-            </h3>
-          </div>
-
-          <a href="mailto:handiandida@gmail.com" className="portfolio__button">
-            View Details{" "}
-            <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
-          </a>
-        </div>
-        <div className="portfolio__content">
-          <div>
-            <img src={Image4} className="portfolio__img" />
-          </div>
-          <div>
-            <h3 className="portfolio__title">
-              Landing <br /> Page
-            </h3>
-          </div>
-
-          <a href="mailto:handiandida@gmail.com" className="portfolio__button">
-            View Details{" "}
-            <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
-          </a>
-        </div>
-        <div className="portfolio__content">
-          <div>
-            <img src={Image5} className="portfolio__img" />
-          </div>
-          <div>
-            <h3 className="portfolio__title">
-              Landing <br /> Page
-            </h3>
-          </div>
-
-          <a href="mailto:handiandida@gmail.com" className="portfolio__button">
-            View Details{" "}
-            <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
-          </a>
-        </div>
-        <div className="portfolio__content">
-          <div>
-            <img src={Image6} className="portfolio__img" />
-          </div>
-          <div>
-            <h3 className="portfolio__title">
-              Landing <br /> Page
-            </h3>
-          </div>
-
-          <a href="mailto:handiandida@gmail.com" className="portfolio__button">
-            View Details{" "}
-            <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
-          </a>
-        </div>
-      </div>
+              <h3 className="portfolio__name">{title}</h3>
+              <p className="portfolio_description">{description}</p>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </section>
   );
 };
