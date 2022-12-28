@@ -1,4 +1,10 @@
 import React from "react";
+import Php_icon from "./icons/Php_icon";
+import Laravel_icon from "./icons/Laravel_icon";
+import Node_icon from "./icons/Node_icon";
+import Mysql_icon from "./icons/Mysql_icon";
+import Firebase_icon from "./icons/Firebase_icon";
+import Postgresql_icon from "./icons/Postgresql_icon";
 
 const Backend = () => {
   return (
@@ -8,7 +14,7 @@ const Backend = () => {
       <div className="skills__box">
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bxl-php bx-tada"></i>
+            <Php_icon />
 
             <div>
               <h3 className="skills__name">PHP</h3>
@@ -17,7 +23,16 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bxl-nodejs bx-tada"></i>
+            <Laravel_icon />
+
+            <div>
+              <h3 className="skills__name">Laravel</h3>
+              <span className="skills__level">Basic</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <Node_icon />
 
             <div>
               <h3 className="skills__name">NodeJS</h3>
@@ -28,7 +43,7 @@ const Backend = () => {
 
         <div className="skills__group">
           <div className="skills__data">
-            <i class="bx bx-data bx-tada"></i>
+            <Mysql_icon />
 
             <div>
               <h3 className="skills__name">MySQL</h3>
@@ -37,7 +52,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bxl-firebase bx-tada"></i>
+            <Firebase_icon />
 
             <div>
               <h3 className="skills__name">Firebase</h3>
@@ -46,7 +61,7 @@ const Backend = () => {
           </div>
 
           <div className="skills__data">
-            <i class="bx bxl-postgresql bx-tada"></i>
+            <Postgresql_icon />
 
             <div>
               <h3 className="skills__name">PostgreSQL</h3>

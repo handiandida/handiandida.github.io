@@ -6,8 +6,8 @@ const Data = () => {
       <h1 className="home__title">Dida Handian</h1>
       <h3 className="home__subtitle">Developer</h3>
       <p className="home__description">
-        Hanya Dida yang Tampan dengan slogan maut andalannya "Diam tanpa
-        pasangan bergerak menjadi pria idaman".
+        Any fool can write code that a computer can understand. Good programmers
+        write code that humans can understand.
       </p>
 
       <a href="#contact" className="button button--flex">

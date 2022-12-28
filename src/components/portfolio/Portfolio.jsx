@@ -40,13 +40,17 @@ const Portfolio = () => {
         }}
         modules={[Pagination, Autoplay]}
       >
-        {Data.map(({ id, image, title, description }) => {
+        {Data.map(({ id, image, title, description, link }) => {
           return (
             <SwiperSlide className="portfolio__card" key={id}>
               <img src={image} alt="" className="portfolio__img" />
 
               <h3 className="portfolio__name">{title}</h3>
               <p className="portfolio_description">{description}</p>
+              <a href={link} className="portfolio__button">
+                Demo{" "}
+                <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
+              </a>
             </SwiperSlide>
           );
         })}

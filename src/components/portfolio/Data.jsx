@@ -1,24 +1,27 @@
-import Image1 from "../../assets/work1.jpg";
-import Image2 from "../../assets/work2.jpg";
-import Image3 from "../../assets/work3.jpg";
+import Image1 from "../../assets/img/news-homepage.png";
+import Image2 from "../../assets/img/food-order.png";
+import Image3 from "../../assets/img/mini-game.png";
 
 export const Data = [
   {
     id: 1,
     image: Image1,
     title: "Landing Page",
-    description: "test isi nomor 1",
+    description: "News Homepage",
+    link: "",
   },
   {
     id: 2,
     image: Image2,
     title: "Web Development",
-    description: "test isi nomor 2",
+    description: "Food Order",
+    link: "",
   },
   {
     id: 3,
     image: Image3,
-    title: "Android Development",
-    description: "test isi nomor 3",
+    title: "Mobile Development",
+    description: "Mini Game App",
+    link: "",
   },
 ];

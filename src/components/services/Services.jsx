@@ -9,9 +9,9 @@ const Services = () => {
     setToggleState(index);
   };
   return (
-    <section className="services section" id="services">
-      <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What i offer</span>
+    <section className="services section" id="development">
+      <h2 className="section__title">Development</h2>
+      <span className="section__subtitle">What i can develop</span>
 
       <div className="services__container container grid">
         <div className="services__content">
@@ -43,8 +43,9 @@ const Services = () => {
               <h3 className="services__modal-title">Landing Page</h3>
               <p className="services__modal-description">
                 {" "}
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                In digital marketing, a <b>landing page</b> is a standalone web
+                page, created specifically for a marketing or advertising
+                campaign.
               </p>
 
               <ul className="services__modal-services grid">
@@ -57,7 +58,9 @@ const Services = () => {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">
+                    Landing page development.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
@@ -114,8 +117,8 @@ const Services = () => {
               <h3 className="services__modal-title">Web Development</h3>
               <p className="services__modal-description">
                 {" "}
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                <b>Web development</b> refers to the creating, building, and
+                maintaining of websites.
               </p>
 
               <ul className="services__modal-services grid">
@@ -160,7 +163,7 @@ const Services = () => {
           <div>
             <i className="uil uil-android services__icon"></i>
             <h3 className="services__title">
-              Android <br /> Development
+              Mobile <br /> Development
             </h3>
           </div>
 
@@ -182,11 +185,13 @@ const Services = () => {
                 className="uil uil-times services__modal-close"
               ></i>
 
-              <h3 className="services__modal-title">Android Development</h3>
+              <h3 className="services__modal-title">Mobile Development</h3>
               <p className="services__modal-description">
                 {" "}
-                Service with more than 3 years of experience. Providing quality
-                work to clients and companies.
+                <b>Mobile application development</b> is the process of creating
+                software applications that run on a mobile device, and a typical
+                mobile application utilizes a network connection to work with
+                remote computing resources.
               </p>
 
               <ul className="services__modal-services grid">
@@ -199,7 +204,9 @@ const Services = () => {
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
+                  <p className="services__modal-info">
+                    Mobile application development.
+                  </p>
                 </li>
 
                 <li className="services__modal-service">
