@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f115be11.css",
-    "main.js": "/static/js/main.12e8b6bd.js",
+    "main.css": "/static/css/main.ce32d6e5.css",
+    "main.js": "/static/js/main.69be1053.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.png": "/static/media/me.4f9a3577bd689d60d83e.png",
+    "static/media/food-order.png": "/static/media/food-order.85965b313864c5854bd0.png",
+    "static/media/news-homepage.png": "/static/media/news-homepage.a9806f86a07ff261df0c.png",
     "static/media/Dida-Cv.pdf": "/static/media/Dida-Cv.9345f40c1eacdafb9fb1.pdf",
-    "static/media/work2.jpg": "/static/media/work2.e52a0c2981a6c11ba468.jpg",
-    "static/media/work1.jpg": "/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/static/media/work3.135e9065694bc13dc31d.jpg",
+    "static/media/mini-game.png": "/static/media/mini-game.e808e28488620131f887.png",
     "index.html": "/index.html",
-    "main.f115be11.css.map": "/static/css/main.f115be11.css.map",
-    "main.12e8b6bd.js.map": "/static/js/main.12e8b6bd.js.map",
+    "main.ce32d6e5.css.map": "/static/css/main.ce32d6e5.css.map",
+    "main.69be1053.js.map": "/static/js/main.69be1053.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f115be11.css",
-    "static/js/main.12e8b6bd.js"
+    "static/css/main.ce32d6e5.css",
+    "static/js/main.69be1053.js"
   ]
 }
