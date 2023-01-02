@@ -5,8 +5,8 @@ const React_icon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 40 40"
-      width="16px"
-      height="16px"
+      width="20px"
+      height="20px"
     >
       <path
         fill="#4e7ab5"

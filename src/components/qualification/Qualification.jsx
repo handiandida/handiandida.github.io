@@ -136,7 +136,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Developer</h3>
                 <span className="qualification__subtitle">
-                  Indonesia - JPP Software House (Freelance)
+                  Indonesia - JPP Project Bandung (Freelance)
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>

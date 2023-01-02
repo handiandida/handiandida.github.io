@@ -1,5 +1,5 @@
 import React from "react";
-import "./portfolio.css";
+import "./testimonials.css";
 import { Data } from "./Data";
 
 // Import Swiper React components
@@ -13,14 +13,14 @@ import "swiper/css/autoplay";
 // import required modules
 import { Pagination, Autoplay } from "swiper";
 
-const Portfolio = () => {
+const Testimonials = () => {
   return (
-    <section className="portfolio container section" id="portfolio">
-      <h2 className="section__title">Portfolio</h2>
-      <span className="section__subtitle">My recent works</span>
+    <section className="testimonial container section">
+      <h2 className="section__title">My client say</h2>
+      <span className="section__subtitle">Testimonial</span>
 
       <Swiper
-        className="portfolios__container"
+        className="testimonials__container"
         loop={true}
         grabCursor={true}
         spaceBetween={24}
@@ -40,17 +40,13 @@ const Portfolio = () => {
         }}
         modules={[Pagination, Autoplay]}
       >
-        {Data.map(({ id, image, title, description, link }) => {
+        {Data.map(({ id, image, title, description }) => {
           return (
-            <SwiperSlide className="portfolio__card" key={id}>
-              <img src={image} alt="" className="portfolio__img" />
+            <SwiperSlide className="testimonial__card" key={id}>
+              <img src={image} alt="" className="testimonial__img" />
 
-              <h3 className="portfolio__name">{title}</h3>
-              <p className="portfolio_description">{description}</p>
-              <a href={link} className="portfolio__button">
-                Demo{" "}
-                <i className="bx bx-right-arrow-alt portfolio__button-icon"></i>
-              </a>
+              <h3 className="testimonial__name">{title}</h3>
+              <p className="testimonial_description">{description}</p>
             </SwiperSlide>
           );
         })}
@@ -59,4 +55,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Testimonials;
