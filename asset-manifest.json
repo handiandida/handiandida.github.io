@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b970f48.css",
-    "main.js": "/static/js/main.57dda057.js",
+    "main.css": "/static/css/main.ec6cd0bf.css",
+    "main.js": "/static/js/main.9e3ff9b9.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/me.png": "/static/media/me.4f9a3577bd689d60d83e.png",
+    "static/media/me.png": "/static/media/me.7b47d599c61ad87d4a80.png",
     "static/media/food-order.png": "/static/media/food-order.85965b313864c5854bd0.png",
     "static/media/news-homepage.png": "/static/media/news-homepage.a9806f86a07ff261df0c.png",
     "static/media/Dida-Cv.pdf": "/static/media/Dida-Cv.c95ce512336738dc105f.pdf",
@@ -12,12 +12,12 @@
     "static/media/testimonial2.png": "/static/media/testimonial2.39a53f7f092f07f5bceb.png",
     "static/media/testimonial1.png": "/static/media/testimonial1.89079c1d25f2c94ceb89.png",
     "index.html": "/index.html",
-    "main.0b970f48.css.map": "/static/css/main.0b970f48.css.map",
-    "main.57dda057.js.map": "/static/js/main.57dda057.js.map",
+    "main.ec6cd0bf.css.map": "/static/css/main.ec6cd0bf.css.map",
+    "main.9e3ff9b9.js.map": "/static/js/main.9e3ff9b9.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b970f48.css",
-    "static/js/main.57dda057.js"
+    "static/css/main.ec6cd0bf.css",
+    "static/js/main.9e3ff9b9.js"
   ]
 }
