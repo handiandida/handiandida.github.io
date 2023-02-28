@@ -7,7 +7,8 @@ const Data = () => {
       <h3 className="home__subtitle">Developer</h3>
       <p className="home__description">
         Any fool can write code that a computer can understand. Good programmers
-        write code that humans can understand.
+        write code that humans can understand.{" "}
+        <i style={{ fontWeight: "bold" }}>– Martin Fowler</i>
       </p>
 
       <a href="#contact" className="button button--flex">

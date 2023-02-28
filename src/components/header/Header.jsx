@@ -76,15 +76,15 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#project"
-                onClick={() => setActiveNav("#project")}
+                href="#portfolio"
+                onClick={() => setActiveNav("#portfolio")}
                 className={
-                  activeNav === "#project"
+                  activeNav === "#portfolio"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
               >
-                <i className="uil uil-scenery nav__icon"></i> Project
+                <i className="uil uil-scenery nav__icon"></i> Portfolio
               </a>
             </li>
 
